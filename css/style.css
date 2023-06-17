@@ -1,0 +1,103 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    margin: 0;
+    background-image: url(./campeones.webp);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+background-color: rgb(84, 127, 184);
+}
+#barra_central h2{
+color: rgb(12, 125, 170);
+}
+h1{
+    background-color: black;
+    background-position: 10px 10px;
+    font-family: fantasy;
+    font-weight:bolder;
+    text-align: center;
+}
+h3{
+    font-size:x-large
+}
+header{
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 219, 219);
+}
+h2{
+    font-family: fantasy;
+}
+header img{
+    height: 60px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(12, 125, 170);
+
+}
+a:hover{
+    color: yellow;
+}
+h1{
+    color: rgb(221, 207, 9);
+}
+footer{
+
+    display: flex;
+background-color: rgb(84, 127, 184);
+color: white;
+align-self: flex-end;
+width: 100vw;
+text-align: center;
+
+}
+footer h3{
+    text-align: left;
+}
+footer p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer iframe{
+    padding: 5px;
+    align-self:flex-end;
+    width: 200px;
+    height: 200px;
+}
+footer section{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+main{
+    width: 100vw;
+    height: 80vh;
+
+}
+main section{
+    background-color: #fafafa8e;
+}
+header nav a{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.activo{
+    color: yellow;
+}
+nav{
+    background-color: rgb(219, 219, 219);
+}
+@media (min-width: 768px) {
+
+}
