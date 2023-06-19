@@ -11,7 +11,13 @@ body{
     background-attachment: fixed;
     background-size: cover;
     flex-wrap: wrap;
-background-color: rgb(84, 127, 184);
+    background-color: rgb(34, 33, 33)
+}
+.pagina3{
+    background-image: url(./FESTEJO.jpg);
+}
+.pagina5{
+    background-image: url(./diego86.jpg);
 }
 #barra_central h2{
 color: rgb(12, 125, 170);
@@ -98,6 +104,24 @@ header nav a{
 nav{
     background-color: rgb(219, 219, 219);
 }
+.contenedor-historia{
+    background-color: #ffffff9d;
+    width: 100vw;
+}
 @media (min-width: 768px) {
 
 }
+.carrusel-mio{
+    margin: auto;
+    border: 5px solid black;
+}
+h5{
+    background-color: black;
+}
+h2{
+    color:  rgb(84, 127, 184);
+}
+.campeon{
+    color: rgb(84, 127, 184);
+}
+
